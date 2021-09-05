@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap');
+
+html {
+  font-family: 'Alata', sans-serif;
+  font-weight: 400;
+  width: 100%;
+}
+body {
+  margin:0;
+  width: 100%;
+}
+h1, h2, .creations {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 300;
+}
+h1, h2, .creations, #see-all {
+  text-transform: uppercase;
+}
+h1, .creations {
+  color: white;
+}
+h2 {
+  color: black;
+}
+h2, .creations {
+  letter-spacing: 0.01em;
+}
+main p, .copyright{
+  color: hsl(0, 0%, 55%);
+}
+.section-2 {
+  display: grid;
+}
+a{
+  text-decoration: none;
+}
+
+#see-all {
+  color: black;
+  border: 1px solid  black;
+  letter-spacing: 0.31em;
+}
+#see-all:active {
+  background-color: black;
+  color:white;
+}
+
+footer {
+  background-color: black;
+  display: grid;
+  .nav {
+    display: flex;
+    a:active:after {
+      top: 30px;
+      left: 25%;
+      width: 50%
+    }
+    a {
+      color: white;
+    }
+  }
+}
+.nav, .socials {
+  a {
+    position:relative;
+  }
+  a:active:after {
+    content: "";
+    display: block;
+    border-bottom: 2px solid white;
+    position: absolute;
+    height: 1px;
+    top: 30px;
+  }
+}
+.socials {
+  a:active:after {
+    width:30px;
+    left: 10px;
+  }
+}
+.creations {
+  .creation-title{
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0),rgba(0, 0, 0, 0));
+  }
+}
+
+.creations:active {
+  .creation-title{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.6),rgba(255, 255, 255, 0.6));
+  }
+}
+.logo {
+  z-index: 1;
+}
