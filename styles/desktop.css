@@ -13,7 +13,8 @@ html {
 
 header {
   height: 650px;
-  background-image: url("./images/desktop/image-hero.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./images/desktop/image-hero.jpg");
+  overflow: hidden;
 }
 header h1 {
   font-size: 70px;
@@ -23,7 +24,7 @@ header h1 {
   max-width: 694px;
   padding: 39px 90px 37px 39px;
   width: 36.0416666667%;
-  margin: 226px 43.4722222222% 148px 11.5277777778%;
+  margin: 146px 43.4722222222% 148px 11.5277777778%;
   border: 2px solid white;
 }
 header .nav-container {

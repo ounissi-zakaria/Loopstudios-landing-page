@@ -12,7 +12,9 @@ html {
 
 header {
   height: 650px;
-  background-image: url("./images/desktop/image-hero.jpg");
+  // background-image: url("./images/desktop/image-hero.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("./images/desktop/image-hero.jpg");
+  overflow: hidden;
   h1 {
     font-size: 70px;
     letter-spacing: 0.02em;
@@ -21,7 +23,7 @@ header {
     max-width: 694px;
     padding: 39px 90px 37px 39px;
     width: math.div(519px,1440px)*100%;
-    margin: 226px math.div(626,1440)*100% 148px math.div(166,1440)*100%;
+    margin: 146px math.div(626,1440)*100% 148px math.div(166,1440)*100%;
     border: 2px solid white;
   }
   .nav-container {
