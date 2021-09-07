@@ -87,9 +87,6 @@ footer {
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
-.creations .creation-title {
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
-}
 
 .creations:active .creation-title {
   background-image: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6));

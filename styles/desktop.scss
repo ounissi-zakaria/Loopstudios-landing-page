@@ -108,42 +108,42 @@ main {
     #Earth{
         grid-row: 2 / 3;
         grid-column: 1 / 2;
-      background-image: url("./images/desktop/image-deep-earth.jpg");
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0),rgba(0, 0, 0, 0)), url("./images/desktop/image-deep-earth.jpg");
     }
     #Arcade{
       grid-row: 2 / 3;
       grid-column: 2 / 3;
-      background-image: url("./images/desktop/image-night-arcade.jpg");
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0),rgba(0, 0, 0, 0)),url("./images/desktop/image-night-arcade.jpg");
     }
     #Soccer{
       grid-row: 2 / 3;
       grid-column: 3 / 4;
-      background-image: url("./images/desktop/image-soccer-team.jpg");
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0),rgba(0, 0, 0, 0)),url("./images/desktop/image-soccer-team.jpg");
     }
     #Grid{
       grid-row: 2 / 3;
       grid-column: 4 / 5;
-      background-image: url("./images/desktop/image-grid.jpg");
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0),rgba(0, 0, 0, 0)),url("./images/desktop/image-grid.jpg");
     }
     #UpAbove{
       grid-row: 3 / 4;
       grid-column: 1 / 2;
-      background-image: url("./images/desktop/image-from-above.jpg");
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0),rgba(0, 0, 0, 0)),url("./images/desktop/image-from-above.jpg");
     }
     #Pocket{
       grid-row: 3 / 4;
       grid-column: 2 / 3;
-      background-image: url("./images/desktop/image-pocket-borealis.jpg");
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0),rgba(0, 0, 0, 0)),url("./images/desktop/image-pocket-borealis.jpg");
     }
     #Curiosity{
       grid-row: 3 / 4;
       grid-column: 3 / 4;
-      background-image: url("./images/desktop/image-curiosity.jpg");
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0),rgba(0, 0, 0, 0)),url("./images/desktop/image-curiosity.jpg");
     }
     #Fisheye{
       grid-row: 3 / 4;
       grid-column: 4 / 5;
-      background-image: url("./images/desktop/image-fisheye.jpg");
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0),rgba(0, 0, 0, 0)),url("./images/desktop/image-fisheye.jpg");
     }
   }
 }

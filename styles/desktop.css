@@ -111,42 +111,42 @@ main .section-2 .creations .creation-title {
 main .section-2 #Earth {
   grid-row: 2/3;
   grid-column: 1/2;
-  background-image: url("./images/desktop/image-deep-earth.jpg");
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("./images/desktop/image-deep-earth.jpg");
 }
 main .section-2 #Arcade {
   grid-row: 2/3;
   grid-column: 2/3;
-  background-image: url("./images/desktop/image-night-arcade.jpg");
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("./images/desktop/image-night-arcade.jpg");
 }
 main .section-2 #Soccer {
   grid-row: 2/3;
   grid-column: 3/4;
-  background-image: url("./images/desktop/image-soccer-team.jpg");
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("./images/desktop/image-soccer-team.jpg");
 }
 main .section-2 #Grid {
   grid-row: 2/3;
   grid-column: 4/5;
-  background-image: url("./images/desktop/image-grid.jpg");
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("./images/desktop/image-grid.jpg");
 }
 main .section-2 #UpAbove {
   grid-row: 3/4;
   grid-column: 1/2;
-  background-image: url("./images/desktop/image-from-above.jpg");
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("./images/desktop/image-from-above.jpg");
 }
 main .section-2 #Pocket {
   grid-row: 3/4;
   grid-column: 2/3;
-  background-image: url("./images/desktop/image-pocket-borealis.jpg");
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("./images/desktop/image-pocket-borealis.jpg");
 }
 main .section-2 #Curiosity {
   grid-row: 3/4;
   grid-column: 3/4;
-  background-image: url("./images/desktop/image-curiosity.jpg");
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("./images/desktop/image-curiosity.jpg");
 }
 main .section-2 #Fisheye {
   grid-row: 3/4;
   grid-column: 4/5;
-  background-image: url("./images/desktop/image-fisheye.jpg");
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("./images/desktop/image-fisheye.jpg");
 }
 
 footer {
