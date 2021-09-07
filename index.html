@@ -9,8 +9,8 @@
   <title>Frontend Mentor | Loopstudios landing page</title>
   <script src="script.js" charset="utf-8" defer></script>
   <link rel="stylesheet" href="./styles/main.css">
-  <link rel="stylesheet" href="./styles/mobile.css" media="(max-width: 750px)">
-  <link rel="stylesheet" href="./styles/desktop.css" media="(min-width: 751px)">
+  <link rel="stylesheet" href="./styles/mobile.css" media="(max-width: 991px)">
+  <link rel="stylesheet" href="./styles/desktop.css" media="(min-width: 992px)">
 </head>
 <body>
   <header>
@@ -19,6 +19,7 @@
         <img src="./images/logo.svg" alt="Loopstudios" width="183" height="32">
       </a>
       <img src="./images/icon-hamburger.svg" alt="open navigation menu" width="30" height="20" id="hamburger">
+      <img src="./images/icon-close.svg" alt="close navigation menu" width="20" height="20" id="X-hamburger">
       <div class="nav">
         <a href="#">
           About
@@ -44,7 +45,10 @@
   </header>
   <main>
     <div class="section-1">
-      <img src="./images/mobile/image-interactive.jpg" alt="a man using a Virtual reality headset" height="285">
+      <picture>
+        <source srcset="./images/desktop/image-interactive.jpg"  media="(min-width: 992px)">
+        <img src="./images/mobile/image-interactive.jpg" alt="a man using a Virtual reality headset" height="285">
+      </picture>
       <div class="VR-leader">
         <h2>
           The leader in interactive VR
@@ -108,8 +112,7 @@
   </main>
   <footer>
     <a href="#" class="logo">
-      <img src="./images/logo.svg" alt="Loopstudios" width="183" height="32">
-    </a>
+      <img src="./images/logo.svg" alt="Loopstudios" width="183" height="32"></a>
     <div class="nav">
       <a href="#">
         About
@@ -132,7 +135,7 @@
         <img src="./images/icon-facebook.svg" alt="facebook" width="30" height="30">
       </a>
       <a href="#">
-        <img src="./images/icon-twitter.svg" alt="twitter" width="30" height="25">
+        <img src="./images/icon-twitter.svg" alt="twitter" width="30" height="25" id="icon-twitter">
       </a>
       <a href="#">
         <img src="./images/icon-pinterest.svg" alt="pinterest" width="30" height="30">

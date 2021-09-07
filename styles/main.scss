@@ -48,16 +48,16 @@ a{
 footer {
   background-color: black;
   display: grid;
-  .nav {
-    display: flex;
-    a:active:after {
-      top: 30px;
-      left: 25%;
-      width: 50%
-    }
-    a {
-      color: white;
-    }
+}
+.nav {
+  display: flex;
+  a:active:after {
+    top: 30px;
+    left: 25%;
+    width: 50%
+  }
+  a {
+    color: white;
   }
 }
 .nav, .socials {
@@ -73,15 +73,12 @@ footer {
     top: 30px;
   }
 }
-.socials {
-  a:active:after {
-    width:30px;
-    left: 10px;
-  }
-}
+
 .creations {
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
   .creation-title{
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0),rgba(0, 0, 0, 0));
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0),rgba(0, 0, 0, 0));
   }
 }
 
@@ -92,4 +89,9 @@ footer {
 }
 .logo {
   z-index: 1;
+}
+header {
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  overflow: hidden;
 }
